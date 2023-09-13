@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" id="in">
+<button onclick="run()">kết quả</button>
+<p id="kq"></p>
+<script>
+    function run(){
+       let duongKinh = +document.getElementById('in').value;
+       let kq = duongKinh*Math.PI
+      document.getElementById('kq').innerHTML = kq;
+    }
+</script>
+</body>
+</html>
